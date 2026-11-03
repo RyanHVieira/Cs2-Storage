@@ -1,24 +1,10 @@
-# .NET build artifacts
-**/bin/
-**/obj/
-**/out/
+# Credenciais
+.env
+.env.*
 
-# Visual Studio / VS Code
-.vs/
-.vscode/
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
-
-# Node / Vite
+# Dependências e compilação
 node_modules/
 dist/
-dist-ssr/
-*.local
 
-# OS files
-.DS_Store
-Thumbs.db
-
-*.env
+# Dados locais de autenticação Steam
+data/
